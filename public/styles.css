@@ -162,8 +162,6 @@ body {
 
   box-sizing: border-box;
   user-select: none;
-  pointer-events: none;
-  overflow: hidden;
   outline: none;
   border: none;
   resize: none;
@@ -174,4 +172,11 @@ body {
   font-size: 1em;
   font-family: 'Fira Mono', 'Consolas', monospace;
   text-align: left;
+}
+
+
+/*Scrollbars*/
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--cor-fundo-principal) var(--cor-sombra);  /* thumb color | track color */
 }
