@@ -31,5 +31,5 @@ document.getElementById('run-btn').addEventListener('click', async () => {
     body: JSON.stringify({ code })
   });
   const result = await response.json();
-  document.getElementById('console-text').textContent = result.output;
-});
+  document.querySelector('#console-text').textContent = result.output
+})
